@@ -1,0 +1,289 @@
+body,
+.widget { direction: rtl; }
+.flexslider,
+.owl-carousel,
+.page-sidebar { direction: ltr !important; }
+/*============  FLOAT SECTION STYLE ============ */
+
+.rtl .left-side,
+.rtl .pull-left,
+.rtl .main-section .cs-blog.blog-lrg section .title,
+.rtl .cs-blog .post-option li i,
+.rtl .main-section .cs-blog figure,
+.rtl .main-section .cs-search-area form,
+.rtl .page-not-found .cs-section-title,
+.rtl .main-section .cs-content404 { float: right !important; }
+.rtl .right-side,
+.rtl .pull-right { float: left !important; }
+/*============  Align Right ============ */
+
+.cs-blog section { text-align: right !important; }
+/*============  Align left ============ */
+
+.main-section .cs-blog .btnshare,
+.main-section .page-not-found .cs-section-title { text-align: left !important; }
+/*============  HEADER SETUP ============ */
+
+
+/*============  Blog SETUP ============ */
+.cs-blog .post-option,
+.cs-blog .post-option li,
+.cs-blog-grid .post-option {
+	display: inline-block;
+	float: none;
+}
+.cs-blog .devider1:after {
+	right: 0;
+	left: auto;
+}
+.main-section .cs-blog.blog-lrg section .title ~ .blog-text { padding: 0 360px 0 0; }
+.cs-blog .post-option li i { margin: 5px 0 0 7px; }
+.main-section .cs-blog.blog-medium .cs-media ~ section { padding: 30px 390px 0 30px; }
+/*============  WIDGET SETUP ============ */
+
+
+/*============  EVENT SETUP ============ */
+
+/*============  DETAIL PAGE SETUP ============ */
+
+/*============  No Search Result SETUP ============ */
+
+.main-section .page-no-search ul li a:before,
+.main-section .cs-list ul li a:before {
+	left: auto;
+	right: -1px;
+	top: -7px;
+}
+.main-section .page-no-search ul li a:after,
+.main-section .cs-list ul li a:after {
+	right: -3px;
+	left: auto;
+}
+.main-section .page-no-search ul li a,
+.main-section .cs-list ul li a { padding: 0 20px 0 0; }
+.main-section .page-no-search .cs-search-area label input {
+	left: 4px;
+	right: auto;
+	top: 4px;
+}
+.rtl .page-no-search .cs-search-area .form-control { height: 56px; }
+.main-section .page-no-search .cs-search-area .form-control { padding: 0 12px 0 0; }
+/*============  404 Page SETUP ============ */
+
+.main-section .cs-content404 {
+	border-right: 1px solid #e4e4e4;
+	border-left: none;
+}
+/***** Added on 6-May-2015 ( Home Page ) *****/
+
+.rtl .search-top input[type="text"] { float: right; }
+.rtl .search-top::after {
+	left: 0;
+	right: inherit;
+}
+.rtl .widget_search form label {
+	left: 15px;
+	right: inherit;
+}
+.rtl .widget_search form label input[type="submit"] {
+	width: 24px;
+	height: 24px;
+	position: relative;
+}
+.rtl .widget_search form label::after { left: -8px; }
+.rtl .navigation { float: right; }
+.rtl .navigation ul li { float: right; }
+.rtl .navigation ul > li > a { border-right: 1px solid rgba(255,255,255,0.1); }
+.rtl .navigation ul li:last-child a { border-left: 1px solid rgba(255,255,255,0.1); }
+.rtl .sub-dropdown { right: 0; }
+.rtl .navigation ul .sub-dropdown ul { right: 95%; }
+.rtl .widget-section-title h2 { float: right; }
+/*.rtl #footer-sec .widget-section-title h2::before{
+	left:-70px;
+}
+.rtl .widget-section-title h2::before{
+	left:-70px;
+}*/
+.rtl .blog-grid .text h2 i { float: left; }
+.rtl .widget_blog ul li i,
+.rtl .widget_blog ul li a,
+.rtl #footer-sec .signup .user-signup label { float: right; }
+.rtl #footer-sec .signup .user-signup label { padding: 0px 16px 0px 0; }
+.rtl .widget_blog ul li a {
+	padding-right: 13px;
+	padding-left: 0;
+	text-align: right;
+}
+.rtl .widget_blog .time { float: left; }
+.rtl #copyright .social-media ul.socialmedia li,
+.rtl .cs-team .text .player-no { float: right; }
+.rtl #copyright .social-media ul.socialmedia li a::before { right: -2px; }
+.rtl #footer-sec .signup .user-signup input[type="text"] {
+	padding-left: 0;
+	padding-right: 24px;
+}
+.rtl .cs-team .text .player-no ~ h4,
+.rtl .cs-team .text .player-no ~ h6 {
+	padding: 3px 70px 0 0;
+	text-align: right;
+}
+.rtl #footer-sec .signup .user-signup label .icon-envelope4 { right: 15px; }
+.rtl #footer-sec .signup .user-signup input[type="submit"] { float: left; }
+.rtl .cs-services.right figure { float: left; }
+.rtl .cs-services.classic.right figure ~ .text { padding: 0 0 0 130px; }
+/***** Added on 6-May-2015 ( Under-Construction Page ) *****/
+
+.rtl .cons-text-wrapp .cs-search-area label input {
+	left: 5px;
+	right: inherit;
+}
+.rtl .cons-text-wrapp .cs-search-area .form-control {
+	padding-right: 12px;
+	text-align: right;
+	width: 99.5%;
+}
+/***** Added on 6-May-2015 ( No Search Result Page ) *****/
+
+.rtl .recent_blog_widget ul li figure,
+.rtl .widget_team ul li figure { float: right; }
+.rtl .recent_blog_widget ul li figure ~ .infotext,
+.rtl .widget_team ul li figure ~ .infotext {
+	padding-right: 74px;
+	padding-left: 0;
+	text-align: right;
+}
+.rtl .widget.widget_archive ul li:hover::before,
+.rtl .widget_categories ul li:hover::before {
+	left: 10px;
+	right: inherit;
+}
+.rtl .widget_archive ul li:hover,
+.rtl .widget_categories ul li:hover { padding: 10px; }
+.rtl .widget_archive ul li a,
+.rtl .widget_categories ul li a { float: right; }
+/***** Added on 6-May-2015 ( match-list-view Page ) *****/
+
+.rtl .widget_result ul li .infotext {
+	padding-right: 21px;
+	padding-left: 0;
+}
+.rtl .widget_result ul li span { float: right; }
+.rtl .widget_team .time { float: left; }
+.rtl .widget_team .infotext p { text-align: right; }
+/***** Added on 6-May-2015 ( simple-list-view Page ) *****/
+
+.rtl .event.event-listing-v2 .event-fixtures .text {
+	width: 78%;
+	padding: 5px 20px 0 0;
+}
+.rtl .post-562,
+.rtl .post-560,
+.rtl .post-369 {
+	border-right: 2px solid #579f4b !important;
+	border-left: 0 !important;
+}
+.rtl .post-563,
+rtl .post-561,
+.rtl .post-375,
+.rtl .post-374,
+.rtl .post-372,
+.rtl .post-370,
+.rtl .post-368,
+.rtl .post-367,
+.rtl .post-561 {
+	border-right: 2px solid #e0c132 !important;
+	border-left: 0 !important;
+}
+.rtl .event-listing-v2 .event-fixtures .ticket-btn {
+	right: inherit;
+	left: 20px;
+}
+.rtl .event-listing-v2 .event-fixtures .post-option { float: right; }
+.rtl .event.event-listing-v2 .event-fixtures .text h2 { float: right; }
+.rtl .event-listing-v2 .post-option li span {
+	float: right;
+	margin: 4px 0 0 14px;
+}
+/***** Added on 6-May-2015 ( club-view Page ) *****/
+
+.rtl .event.event-results article .calendar-date,
+.rtl .event.event-results article .text { float: right; }
+.rtl .event.event-results article .text h2,
+.rtl .event.event-results article .text .post-option { text-align: right; }
+.rtl .event-fixtures .ticket-btn {
+	left: 30px;
+	right: inherit;
+}
+/***** Added on 6-May-2015 ( fixedview Page ) *****/
+
+.rtl .cs-classic-form p.comment-form-comment {
+	left: 0;
+	right: inherit;
+}
+.rtl .cs-classic-form p label,
+.rtl .cs-classic-form .comment-form-comment label {
+	right: 20px;
+	left: inherit;
+}
+.rtl .cs-classic-form input[type="text"] { padding: 10px 60px 10px 10px; }
+.rtl .cs-classic-form textarea { padding: 18px 55px 10px 10px; }
+/***** Added on 6-May-2015 ( player w/sidebar Page ) *****/
+
+.rtl .team-detail .detailpost img { float: right; }
+.rtl .team-detail .frame-plane a ~ section,
+.rtl .team-detail .detailpost img ~ figcaption {
+	left: 0;
+	right: inherit;
+}
+/***** Added on 6-May-2015 ( contact us Page ) *****/
+
+.rtl .widget_text ul li i {
+	float: right;
+	margin-left: 10px;
+}
+.rtl .widget_text ul li p {
+	padding-right: 25px;
+	padding-left: 0;
+}
+.rtl #copyright .social-media ul.socialmedia li a { font-size: 23px; }
+.rtl .breadcrumbs {
+	right: 30%;
+	left: inherit;
+}
+.rtl .breadcrumbs ul li { float: right; }
+.rtl .breadcrumbs ul li a { padding: 8px 12px 8px 25px; }
+.rtl .breadcrumbs ul li a::before {
+	left: 7px;
+	right: inherit;
+}
+.rtl .pageinfo h1 { padding: 7px 0 0 20px; }
+.rtl .pageinfo span {
+	border-left: none;
+	border-right: 1px solid #fff;
+	padding: 0 30px 0 0;
+	text-align: right;
+}
+.rtl .header .navbar-nav { z-index: 1000; }
+.rtl .cs-sc-team ul li figure {
+	position: relative;
+	top: 50px;
+}
+.rtl span.win { top: -10px; }
+.rtl .home .filter-nav li a,
+.rtl .home .filter-nav li.active a{
+	padding: 20px 40px 15px;
+}
+.rtl .cs-prv-next .owl-controls {padding: 0 10px 0 0; left: 0;right:auto;}
+.rtl .blog-grid .text h2 i { transform: scale(-1);}
+.rtl .cs-prv-next .owl-prev::after{ border:0;}
+.rtl .cs-services.classic figure{ float:right;}
+.rtl .cs-services.classic figure ~ .text { padding: 0 130px 0 0;text-align: right;}
+.rtl .cons-text-wrapp .cs-search-area form{ float:none !important;}
+.rtl .cs-classic-form input[type="text"],
+.rtl .cs-tags ul li,
+.rtl .logo-section .logo{ float:right;}
+.rtl form p.form-submit input[type="submit"]{ width:130px;}
+.rtl .page-title-align-left,
+.rtl .woocommerce ul.products li.product h3{ text-align:right;}
+.rtl .woocommerce ul.products li.product span { float: right; padding: 7px 12px 15px 0;}
+.rtl .woocommerce ul.products li.product a.add_to_cart_button, .rtl .woocommerce-page ul.products li.product a.add_to_cart_button {float: left;margin: 0 0 20px 20px;}
